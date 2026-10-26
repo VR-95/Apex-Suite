@@ -1,0 +1,26 @@
+# ── Secrets — never commit these ──
+backend/.env
+.env
+.env.local
+
+# ── Frontend build artifacts / dependencies ──
+node_modules/
+dist/
+.vite/
+
+# ── Backend build artifacts ──
+backend/__pycache__/
+backend/venv/
+backend/*.pyc
+**/__pycache__/
+
+# ── OS / editor cruft ──
+.DS_Store
+.vscode/
+*.log
+
+# ── Replit-specific (local state, not shared) ──
+.replit.nix
+.upm/
+.config/
+replit.nix

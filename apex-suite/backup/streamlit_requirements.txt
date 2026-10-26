@@ -1,0 +1,6 @@
+streamlit
+groq
+fpdf2
+python-pptx
+python-dotenv
+plotly

@@ -1,0 +1,10 @@
+backend/.env
+.env
+node_modules
+dist
+backend/__pycache__
+backend/venv
+.git
+.gitignore
+README.md
+backup/
