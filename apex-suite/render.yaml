@@ -1,8 +1,11 @@
+
 services:
   - type: web
     name: apex-suite
     runtime: docker
     plan: free
+    dockerfilePath: ./apex-suite/Dockerfile
+    dockerContext: ./apex-suite
     healthCheckPath: /api/health
     envVars:
       - key: GROQ_API_KEY_1
